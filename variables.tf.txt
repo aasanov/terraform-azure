@@ -1,19 +1,23 @@
 variable "subscription" {
+  description = "Azure Tenant Subscription ID"
   type    = string
   default = "subscriptionID"
 }
 
-variable "tenant" {
+variable "tenant_id" {
+  description = "Azure Tenant ID"
   type    = string
   default = "tenantID"
 }
 
-variable "client" {
+variable "client_id" {
+  description = "Service Principal App ID"
   type    = string
   default = "clientID"
 }
 
-variable "TF_VAR_clientsecret" {
+variable "client_secret" {
+  description = "Service Principal Password"
   type    = string
-  default = "ClientSecret"
+  default = "clientsecret"
 }
