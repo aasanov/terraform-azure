@@ -1,0 +1,19 @@
+variable "subscription" {
+  type    = string
+  default = "subscriptionID"
+}
+
+variable "tenant" {
+  type    = string
+  default = "tenantID"
+}
+
+variable "client" {
+  type    = string
+  default = "clientID"
+}
+
+variable "TF_VAR_clientsecret" {
+  type    = string
+  default = "ClientSecret"
+}
